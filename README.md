@@ -9,8 +9,8 @@ https://github.com/lighthouse-labs/snek-multiplayer
 
 ## Final Product
 
-!["screenshot description"](Client.png)
-!["screenshot description"](Server.png)
+!["View of client side terminal with Node"](Client.png)
+!["View of server side terminal"](Server.png)
 
 
 ## Getting Started
