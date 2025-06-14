@@ -1,10 +1,10 @@
 const IP = "localhost";
 const PORT = 50541;
 const ENCODING = "utf8";
-MOVE_UP_KEY = "w";
-MOVE_DOWN_KEY = "s";
-MOVE_LEFT_KEY = "a";
-MOVE_RIGHT_KEY = "d";
+const MOVE_UP_KEY = "w";
+const MOVE_DOWN_KEY = "s";
+const MOVE_LEFT_KEY = "a";
+const MOVE_RIGHT_KEY = "d";
 
 module.exports = {
   IP,
@@ -14,4 +14,4 @@ module.exports = {
   MOVE_DOWN_KEY,
   MOVE_LEFT_KEY,
   MOVE_RIGHT_KEY
-}
+};

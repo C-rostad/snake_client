@@ -10,20 +10,20 @@ const handleUserInput = function(key) {
   if (key === '\u0003') { //check if ctrl c is pressed, exit if so
     process.exit();
   } else {
-    switch(key) {
-      case MOVE_UP_KEY: connection.write("Move: up");
+    switch (key) {
+    case MOVE_UP_KEY: connection.write("Move: up");
       break;
-      case MOVE_LEFT_KEY: connection.write("Move: left");
+    case MOVE_LEFT_KEY: connection.write("Move: left");
       break;
-      case MOVE_DOWN_KEY: connection.write("Move: down");
+    case MOVE_DOWN_KEY: connection.write("Move: down");
       break;
-      case MOVE_RIGHT_KEY: connection.write("Move: right");
+    case MOVE_RIGHT_KEY: connection.write("Move: right");
       break;
-      case "1": connection.write("Say: Hello friends!");
+    case "1": connection.write("Say: Hello friends!");
       break;
-      case "2": connection.write("Say: Good Luck!");
+    case "2": connection.write("Say: Good Luck!");
       break;
-      case "3": connection.write("Say: Good Game");
+    case "3": connection.write("Say: Good Game");
       break;
     }
   }
