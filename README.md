@@ -9,8 +9,8 @@ https://github.com/lighthouse-labs/snek-multiplayer
 
 ## Final Product
 
-!["screenshot description"](./Screenshot 2025-06-14 131836.png)
-!["screenshot description"](./Screenshot 2025-06-14 131836.png)
+!["screenshot description"](Screenshot 2025-06-14 131836.png)
+!["screenshot description"](Screenshot 2025-06-14 131836.png)
 
 
 ## Getting Started
