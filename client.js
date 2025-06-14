@@ -11,6 +11,8 @@ const connect = function() {
 
   conn.on("connect", () => {
     console.log("Connected - Welcome to Snake!");
+    conn.write("Name: CPR");
+
   });
   conn.on("data", (data) => {
     console.log(data);
